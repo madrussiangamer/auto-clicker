@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="autoclicker.exe" version="1.0.0.0" publicKeyToken="e73ca69cb99b4e8c" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="autoclicker" version="1.0.0.1" publicKeyToken="6C2FED1EE9D042BC" language="neutral" processorArchitecture="x86" />
+    <commandLine file="autoclicker.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="autoclicker.exe" size="207872">
+      <assemblyIdentity name="autoclicker" version="1.0.0.1" publicKeyToken="6C2FED1EE9D042BC" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>BluDElkMYwoTuRUwWYtF4VTFgKs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=AjM Design" issuerKeyHash="0af588de679109dd63c7d9d87e9a9a24747b84cc" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>IZUuEqxI01dJWSxmnz60ZkOnmF0=</DigestValue></Reference></SignedInfo><SignatureValue>QiZQ2b3awAYHwqVssZgljqJCgD31bu9Gimu6Eqxr4pe074NgMBzFiz/I+vWmBw5O5qqG4U0goEm6JOJ8V5+q5SrBdHbBYvDq80fNwQgRK9irnFsn6QrsdiUfAQ1ITOtM35IKN75eXT24QjJL+JiJT5laFFfvASLntwLhO17fqOQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rFh56JpuBX2esS53bI4DAvz6DS+CFqBo2iPrTiRgp8T33v1IoWB/+UaBCs0wmiuJPZ9Pp9Vj2BZ38Ildxao/M6+PQi0gtqVknjsYv6A7P0fkWGD9bHGpQg7tQC5oYDW2NjpybgjaNddpc3/yY5L5Gj6t1N2FX09JOav9JJPXBzU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5d98a74366b43e9f662c594957d348ac122e9521" Description="" Url=""><as:assemblyIdentity name="autoclicker.exe" version="1.0.0.0" publicKeyToken="e73ca69cb99b4e8c" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=AjM Design</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>1yECHoyb0cxPkz84B63t6CtpdL0=</DigestValue></Reference></SignedInfo><SignatureValue>A61+HgURkouNmfraoEJ6z4XFN1sT9L6BU1Tna4n2EHtx1HhuUadq5Mv6nAuw6S8CaQ2reO5PPVrAIpxLtpjwrAc6SOdLM3sbv0nd3vJIT4oHwE32hTZTVUYftyeBmCuERb9VaaRi7SIuRPDmVB0zoEKkiFuHFrgNztwfzFHe7rM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rFh56JpuBX2esS53bI4DAvz6DS+CFqBo2iPrTiRgp8T33v1IoWB/+UaBCs0wmiuJPZ9Pp9Vj2BZ38Ildxao/M6+PQi0gtqVknjsYv6A7P0fkWGD9bHGpQg7tQC5oYDW2NjpybgjaNddpc3/yY5L5Gj6t1N2FX09JOav9JJPXBzU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICkTCCAX2gAwIBAgIQhVUKHhX1e7RPijwl+nS4HTAJBgUrDgMCHQUAMBoxGDAWBgNVBAMTD0FqTSBEZXNpZ24gUk9PVDAeFw0wOTAxMTkwNjM5MzhaFw0zOTEyMzEyMzU5NTlaMBUxEzARBgNVBAMTCkFqTSBEZXNpZ24wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKxYeeiabgV9nrEud2yOAwL8+g0vghagaNoj604kYKfE9979SKFgf/lGgQrNMJoriT2fT6fVY9gWd/CJXcWqPzOvj0ItILalZJ47GL+gOz9H5Fhg/WxxqUIO7UAuaGA1tjY6cm4I2jXXaXN/8mOS+Ro+rdTdhV9PSTmr/SST1wc1AgMBAAGjZDBiMBMGA1UdJQQMMAoGCCsGAQUFBwMDMEsGA1UdAQREMEKAEKM249HKrzxJWnIc7B35w9ShHDAaMRgwFgYDVQQDEw9Bak0gRGVzaWduIFJPT1SCEIjDqA6X5uKkQWBszNkROzgwCQYFKw4DAh0FAAOCAQEAUzWSL+KcDF5u1yaxhu1ITujFj6IskbtornFXWlIv7rKfbZZEZtg23bu8UNKOCoHJmgwPfToOaL2GemCuTZlLyXRjRoNICaNRGVjNw0wjcITNdOTCSiWDErPUAROMVrHVfINmp7ncPlSSD6BhFTGy1RfA9U/70QYKh9OBvTh9dpiyW935tYXnGlec57ciYPjLP0C+TmD5lwYlx/hy+fjR9W7rntU23ZeeIsLlvvUwIYzs/OMni8mtUarJnVrPJf57Pol043fxptwNBcIKzz9xJ8HuytYan2l4r6fwXG9lEBPTmDSlRp0EK/uFSVFH/KUBeyPeQIy0xVHxcHSI8zlLuA==</X509Certificate></X509Data></KeyInfo><Object><as:Timestamp>MIIJcQYJKoZIhvcNAQcCoIIJYjCCCV4CAQExCzAJBgUrDgMCGgUAMIGRBgkqhkiG
+9w0BBwGggYMEgYADrX4eBRGSi42Z+tqgQnrPhcU3WxP0voFTVOdrifYQe3HUeG5R
+p2rky/qcC7DpLwJpDat47k89WsAinEu2mPCsBzpI50szexu/Sd3e8khPigfATfaF
+NlNVRh+3J4GYK4RFv1VppGLtIi5E8OZUHTOgQqSIW4cWuA3O3B/MUd7us6CCB0Yw
+ggN6MIICYqADAgECAhA4Jdf6+GGvnvSQ5ya11lrVMA0GCSqGSIb3DQEBBQUAMFMx
+CzAJBgNVBAYTAlVTMRcwFQYDVQQKEw5WZXJpU2lnbiwgSW5jLjErMCkGA1UEAxMi
+VmVyaVNpZ24gVGltZSBTdGFtcGluZyBTZXJ2aWNlcyBDQTAeFw0wNzA2MTUwMDAw
+MDBaFw0xMjA2MTQyMzU5NTlaMFwxCzAJBgNVBAYTAlVTMRcwFQYDVQQKEw5WZXJp
+U2lnbiwgSW5jLjE0MDIGA1UEAxMrVmVyaVNpZ24gVGltZSBTdGFtcGluZyBTZXJ2
+aWNlcyBTaWduZXIgLSBHMjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAxLXy
+UhW8iIZgKRZKWy9LkWuHkfM1VFg16tE2XmJNUlE0ccJ7Zh2JyN0qxGoK9jfZmHSR
+9pKusLV2lvGpSmNFRy5rC5JOSyuM7lhKi9QH5Bos+IKqWNnNQvMtwHXejavHjh2a
+bEwIlR7e2+9n4XLCScKeYDzh4r4Wo2N4aRR7rS0CAwEAAaOBxDCBwTA0BggrBgEF
+BQcBAQQoMCYwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLnZlcmlzaWduLmNvbTAM
+BgNVHRMBAf8EAjAAMDMGA1UdHwQsMCowKKAmoCSGImh0dHA6Ly9jcmwudmVyaXNp
+Z24uY29tL3Rzcy1jYS5jcmwwFgYDVR0lAQH/BAwwCgYIKwYBBQUHAwgwDgYDVR0P
+AQH/BAQDAgbAMB4GA1UdEQQXMBWkEzARMQ8wDQYDVQQDEwZUU0ExLTIwDQYJKoZI
+hvcNAQEFBQADggEBAFDFS8gkgN/kDSTC3hqxoQKhpoItDIMVgTcKgg4ssFoXYbXY
+Bf6I2/GRkbNWGkCm65K+ODmwdTZ0OphP5De6mYnKlUIdsLnHoI1X4PrVZARCNU4B
+0TOiF8hNqifH8uGGTAI4TYN4xvxT4OvgBofdpJaeXgyY4qW+v4KFw2Dh360o2Mel
+S2Taxxtbvaw5CNU4IqEziy+Kmuu8ByE/REEJB7VlHCS8SNNEgOuhz8kCtBTPVMcW
+o4Bc+Xk+XXJ9iBeeLEOiylPOfT32Kjq4T5QApW0Kg135XlP0GLNXD3DD+/WtlaAO
+F97EFoBgyQ8rboYE8ev0eCfRBcXuNFteuUky8jMwggPEMIIDLaADAgECAhBHvxmV
+341SRkP3221IDTGkMA0GCSqGSIb3DQEBBQUAMIGLMQswCQYDVQQGEwJaQTEVMBMG
+A1UECBMMV2VzdGVybiBDYXBlMRQwEgYDVQQHEwtEdXJiYW52aWxsZTEPMA0GA1UE
+ChMGVGhhd3RlMR0wGwYDVQQLExRUaGF3dGUgQ2VydGlmaWNhdGlvbjEfMB0GA1UE
+AxMWVGhhd3RlIFRpbWVzdGFtcGluZyBDQTAeFw0wMzEyMDQwMDAwMDBaFw0xMzEy
+MDMyMzU5NTlaMFMxCzAJBgNVBAYTAlVTMRcwFQYDVQQKEw5WZXJpU2lnbiwgSW5j
+LjErMCkGA1UEAxMiVmVyaVNpZ24gVGltZSBTdGFtcGluZyBTZXJ2aWNlcyBDQTCC
+ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKnKsqTMzSCvCn2JrId18LRO
+8d/BD79nYb2jZBzau/nKM6uEMIlYfozba902ng+/0ex48nemfm88v5OvDbpo9GyU
+yr1SLatIPfW21V1fGwKf+i9rHqT3o5qmGsgC4X9MUuMOYOxAHH65Dd4/x7Tfh71f
+emoxLgOZgROoRyDOMXMNVy3NeDQzlRKZErneaC+q5uPCiowqw4shh2a9g1hXb3W/
+PKomh13KEBU8n4TqVMEKbsT+xUrduQcRlyJ82z4n0R547J8xyfHmIhnbxLNHQ5oa
+X6AekORe9e588X2rYgGP9U0L3tAiVqiVza6Idq7uug3z5E3ZoPtooK4UO7OHwbsC
+AwEAAaOB2zCB2DA0BggrBgEFBQcBAQQoMCYwJAYIKwYBBQUHMAGGGGh0dHA6Ly9v
+Y3NwLnZlcmlzaWduLmNvbTASBgNVHRMBAf8ECDAGAQH/AgEAMEEGA1UdHwQ6MDgw
+NqA0oDKGMGh0dHA6Ly9jcmwudmVyaXNpZ24uY29tL1RoYXd0ZVRpbWVzdGFtcGlu
+Z0NBLmNybDATBgNVHSUEDDAKBggrBgEFBQcDCDAOBgNVHQ8BAf8EBAMCAQYwJAYD
+VR0RBB0wG6QZMBcxFTATBgNVBAMTDFRTQTIwNDgtMS01MzANBgkqhkiG9w0BAQUF
+AAOBgQBKa/nqWMJEHDGJeZkrlr+CrAHWHEzNsIpYbt8IKaNeyMqTE+cEUg3vRycv
+ADiw5MmTTprUImIV9z83IU9wMYDxiziHs+jolwD+z1WWTiTSqSdOeq63YUHzKs7n
+ydle3bsrhT61nbXZ4Vf/vrTFfvXPDJ7wl/4r0ztSGxs4J/c/SjGCAWwwggFoAgEB
+MGcwUzELMAkGA1UEBhMCVVMxFzAVBgNVBAoTDlZlcmlTaWduLCBJbmMuMSswKQYD
+VQQDEyJWZXJpU2lnbiBUaW1lIFN0YW1waW5nIFNlcnZpY2VzIENBAhA4Jdf6+GGv
+nvSQ5ya11lrVMAkGBSsOAwIaBQCgXTAYBgkqhkiG9w0BCQMxCwYJKoZIhvcNAQcB
+MBwGCSqGSIb3DQEJBTEPFw0wOTAxMjAxNzUwNDZaMCMGCSqGSIb3DQEJBDEWBBRU
+klQyamQ1CWa3dKNGCRDRaCjBfTANBgkqhkiG9w0BAQEFAASBgIpUyBmavXXZaxKS
+LdPKQ7WIwpGkr3trbZke+BzY/+KSyqCCMWDyVDy8yu+OZJ2lICHN4ldPXqsEkeya
+pHkClpWctncdcXSmViK+qnddYfruysARAsZkuv5yUxNLTbjy8HROmhiHDR+/HIoj
+Th67tRaZAIl3/fCWxIEMqsGfQrKd
+</as:Timestamp></Object></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
